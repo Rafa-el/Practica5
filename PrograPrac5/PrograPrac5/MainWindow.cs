@@ -19,8 +19,6 @@ public partial class MainWindow: Gtk.Window
 		double pes;
 		double cam;
 		double res;
-		double.TryParse (pesos.Text, out pes);
-		double.TryParse (camb.Text, out cam);
 
 		if (double.TryParse (pesos.Text, out pes) && double.TryParse (camb.Text, out cam)) {
 			if(pes == 0 || cam == 0){
