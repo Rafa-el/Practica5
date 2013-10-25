@@ -32,6 +32,7 @@ public partial class MainWindow: Gtk.Window
 				dol.Text = Convert.ToString (res);
 			}
 		} 
+		// WTF  IS THIS SHIT? XD 
 		else if(pesos.Text == "" || camb.Text == ""){
 			MessageDialog d;
 			d = new MessageDialog(this, DialogFlags.Modal, MessageType.Error, ButtonsType.Ok, "Campos vacios, ingrese numeros");
